@@ -13,11 +13,11 @@
   },
   "requires": [],
   "canContain": false,
-  "view": "modules/contact/index.html",
-  "files": ["modules/contact/controller.js"],
+  "view": "http://resources.kingofapp.com/modules/contact/index.html",
+  "files": ["http://resources.kingofapp.com/modules/contact/controller.js"],
   "scope": {
-    "send_address": "info@kingofapp.es",
-    "mandrill_key": "XXXX",
+    "send_address": "",
+    "mandrill_key": "",
     "debug": true
   },
   "config": [{
