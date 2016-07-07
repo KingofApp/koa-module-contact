@@ -18,7 +18,7 @@
                error-message="{{'contact.error.message' | translate}}"
                ng-model="contact.message"
                required></koa-input>
-    <koa-button raised ng-click="send()">{{'contact.send' | translate}}</koa-button>
+    <koa-button raised ng-click="send()" big>{{'contact.send' | translate}}</koa-button>
   </form>
 
   <p class="status" ng-if="contact.status && contact.modulescope.debug">{{contact.status}}</p>
