@@ -1,6 +1,6 @@
 {
   "name": "koapp-module-contact",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Activa este módulo si quieres que tus seguidores se pongan en contacto contigo.",
   "directories": {
     "test": "test"
