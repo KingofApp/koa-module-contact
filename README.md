@@ -7,3 +7,9 @@ El módulo que hemos creado se sustenta en le servicio de envío de mailing de *
 Una vez creada la cuenta en [Madrill](https://mandrillapp.com), conseguir el código que te pedimos para configurar el módulo es muy sencillo. Sólo se necesita crear una **API Key** en el apartado de "_Settings_". Con ella ya solo tendrás que rellenar el campo con la dirección de correo donde quieres recibir los mails y listo, el módulo ya funcionará correctamente,
 
 A partir de ahora cualquiera podrá comunicarse vía mail utilizando tu App.
+
+### Details:
+
+- Author: King of app
+- Version: 1.0.5
+- Homepage:
