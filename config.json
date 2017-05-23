@@ -1,72 +1,75 @@
 {
-  "name": "Contact",
-  "identifier": "contact",
-  "description": {
-    "es-ES": "Activa este módulo si quieres que tus seguidores se pongan en contacto contigo. Solo tendrás que indicar una dirección de correo y darte de alta en el servicio gratuito de MandrillApp: https://mandrillapp.com/",
-    "en-US": "Activa este módulo si quieres que tus seguidores se pongan en contacto contigo. Solo tendrás que indicar una dirección de correo y darte de alta en el servicio gratuito de MandrillApp: https://mandrillapp.com/"
-  },
-  "descriptionShort": {
-    "es-ES": "Activa este módulo si quieres que tus seguidores se pongan en contacto contigo.",
-    "en-US": "Activa este módulo si quieres que tus seguidores se pongan en contacto contigo."
-  },
-  "icon": "perm-contact-calendar",
-  "documentation": {
-    "es-ES": "modules/contact/documentation/es_ES.md",
-    "en-US": ""
-  },
-  "type": "A",
-  "version": "1.0.5",
-  "author": "King of App",
-  "category": [
-    "others"
-  ],
-  "price": 0,
-  "subscription": false,
-  "canContain": false,
-  "platforms": [
-    "android",
-    "ios",
-    "windows"
-  ],
-  "view": "modules/contact/index.html",
-  "files": [
-    "modules/contact/controller.js"
-  ],
-  "scope": {
-    "send_address": "",
-    "mandrill_key": "",
-    "debug": false
-  },
-  "config": [{
-    "type": "input",
-    "key": "send_address",
-    "templateOptions": {
-      "label": "address",
-      "required": true,
-      "pattern": "^(([a-zA-Z]|[0-9])|([-]|[_]|[.]))+[@](([a-zA-Z0-9])|([-])){2,63}[.](([a-zA-Z0-9]){2,63})+$",
-      "description": "direccion de envio"
-    }
-  }, {
-    "type": "input",
-    "key": "mandrill_key",
-    "templateOptions": {
-      "label": "key mandrill",
-      "required": true,
-      "description": "key de Mandrill"
-    }
-  }],
-  "showOn": {
-    "menu": true,
-    "market": true,
-    "dragDrop": true
-  },
-  "images": {
-    "list": "modules/contact/images/contact_list.png",
-    "screenshots": [
-      "modules/contact/images/contact_screenshot03.png"
+    "name": "Contact",
+    "identifier": "contact",
+    "description": {
+        "es-ES": "Activa este módulo si quieres que tus seguidores se pongan en contacto contigo. Solo tendrás que indicar una dirección de correo y darte de alta en el servicio gratuito de MandrillApp: https://mandrillapp.com/",
+        "en-US": "Activa este módulo si quieres que tus seguidores se pongan en contacto contigo. Solo tendrás que indicar una dirección de correo y darte de alta en el servicio gratuito de MandrillApp: https://mandrillapp.com/"
+    },
+    "descriptionShort": {
+        "es-ES": "Activa este módulo si quieres que tus seguidores se pongan en contacto contigo.",
+        "en-US": "Activa este módulo si quieres que tus seguidores se pongan en contacto contigo."
+    },
+    "icon": "perm-contact-calendar",
+    "documentation": {
+        "es-ES": "modules/contact/documentation/es_ES.md",
+        "en-US": ""
+    },
+    "type": "A",
+    "version": "1.0.6",
+    "author": "King of App",
+    "category": [
+        "others"
     ],
-    "popover": "modules/contact/images/contact_popover.png",
-    "banner": "modules/contact/images/contact_popover.png",
-    "logo": "modules/contact/images/contact_logo.png"
-  }
+    "price": 0,
+    "subscription": false,
+    "canContain": false,
+    "platforms": [
+        "android",
+        "ios",
+        "windows"
+    ],
+    "view": "modules/contact/index.html",
+    "files": [
+        "modules/contact/controller.js"
+    ],
+    "scope": {
+        "send_address": "",
+        "mandrill_key": "",
+        "debug": false
+    },
+    "config": [
+        {
+            "type": "input",
+            "key": "send_address",
+            "templateOptions": {
+                "label": "address",
+                "required": true,
+                "pattern": "^(([a-zA-Z]|[0-9])|([-]|[_]|[.]))+[@](([a-zA-Z0-9])|([-])){2,63}[.](([a-zA-Z0-9]){2,63})+$",
+                "description": "direccion de envio"
+            }
+        },
+        {
+            "type": "input",
+            "key": "mandrill_key",
+            "templateOptions": {
+                "label": "key mandrill",
+                "required": true,
+                "description": "key de Mandrill"
+            }
+        }
+    ],
+    "showOn": {
+        "menu": true,
+        "market": true,
+        "dragDrop": true
+    },
+    "images": {
+        "list": "modules/contact/images/contact_list.png",
+        "screenshots": [
+            "modules/contact/images/contact_screenshot03.png"
+        ],
+        "popover": "modules/contact/images/contact_popover.png",
+        "banner": "modules/contact/images/contact_popover.png",
+        "logo": "modules/contact/images/contact_logo.png"
+    }
 }
