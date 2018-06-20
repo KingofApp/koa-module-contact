@@ -11,5 +11,5 @@ A partir de ahora cualquiera podrá comunicarse vía mail utilizando tu App.
 ### Details:
 
 - Author: King of app
-- Version: 1.0.5
+- Version: 1.1.0
 - Homepage:
